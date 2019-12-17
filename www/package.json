@@ -9,7 +9,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server",
-    "deploy": "contract-deployer --postDeploy=\"npm run build\" --remote=http://ec2-18-207-218-134.compute-1.amazonaws.com:3011 --repo=ryanswart/decentralized-game-of-life.git --cargoPath=. --deposit=12300"
+    "deploy": "contract-deployer --postDeploy=\"npm run build\" --remote=http://ec2-18-207-218-134.compute-1.amazonaws.com:3011 --repo=ryanswart/decentralized-game-of-life.git --cargoPath=."
   },
   "repository": {
     "type": "git",
